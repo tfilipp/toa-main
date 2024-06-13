@@ -149,4 +149,14 @@
   .u-section-1 .u-image-3 {
     height: 278px;
   }
+}@font-face {
+  font-family: 'TTFirsNeue-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/TTFirsNeue-Regular.woff);
+}@font-face {
+  font-family: 'TTFirsNeue-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/TTFirsNeue-Bold.woff);
 }
