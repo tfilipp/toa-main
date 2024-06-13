@@ -7,21 +7,15 @@
   min-height: 880px;
 }
 
-.u-section-1 .u-group-elements-1 {
-  width: 1023px;
-  min-height: 404px;
-  margin: 251px auto 0 24px;
-}
-
 .u-section-1 .u-text-1 {
   font-family: TTFirsNeue-Bold;
-  margin: 0 118px 0 0;
+  margin: 244px 0 0;
 }
 
 .u-section-1 .u-text-2 {
   font-family: TTFirsNeue-Regular;
   font-weight: 500;
-  margin: 30px 0 0;
+  margin: 20px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -31,7 +25,7 @@
   --radius: 15px;
   font-family: TTFirsNeue-Bold;
   font-weight: 700;
-  margin: 30px 726px 0 0;
+  margin: 20px auto 0 0;
   padding: 14px 24px 14px 23px;
 }
 
@@ -49,7 +43,7 @@
   --radius: 15px;
   font-family: TTFirsNeue-Bold;
   font-weight: 700;
-  margin: -68px 453px 0 322px;
+  margin: -68px auto 60px 322px;
   padding: 16px 30px;
 }
 
@@ -58,39 +52,72 @@
     min-height: 726px;
   }
 
-  .u-section-1 .u-group-elements-1 {
-    width: 940px;
-    margin-left: 0;
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 174px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 318px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 556px;
+    min-height: 790px;
   }
 
-  .u-section-1 .u-group-elements-1 {
-    width: 720px;
+  .u-section-1 .u-text-1 {
+    margin-top: 200px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 14px;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 417px;
+    min-height: 672px;
   }
 
-  .u-section-1 .u-group-elements-1 {
-    width: 540px;
+  .u-section-1 .u-text-1 {
+    margin-top: 153px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 20px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 263px;
+    min-height: 740px;
   }
 
-  .u-section-1 .u-group-elements-1 {
-    width: 340px;
+  .u-section-1 .u-text-1 {
+    margin-top: 156px;
+    margin-right: 27px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 29px;
+    margin-right: 17px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 35px;
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 15px;
+    margin-left: auto;
   }
 }@font-face {
   font-family: 'TTFirsNeue-Bold';
