@@ -1,15 +1,20 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/Frame2.png');
-  background-position: 50% 50%;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/Frame2.png");
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 880px;
+  min-height: 1021px;
+}
+
+.u-section-1 .u-group-elements-1 {
+  min-height: 305px;
+  height: auto;
+  margin: 358px 0 60px;
 }
 
 .u-section-1 .u-text-1 {
   font-family: TTFirsNeue-Bold;
-  margin: 244px 0 0;
+  margin: 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -25,7 +30,7 @@
   --radius: 15px;
   font-family: TTFirsNeue-Bold;
   font-weight: 700;
-  margin: 20px auto 0 0;
+  margin: 20px 843px 0 0;
   padding: 14px 24px 14px 23px;
 }
 
@@ -43,135 +48,30 @@
   --radius: 15px;
   font-family: TTFirsNeue-Bold;
   font-weight: 700;
-  margin: -68px auto 60px 322px;
+  margin: -68px 570px 0 322px;
   padding: 16px 30px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 726px;
+    min-height: 970px;
   }
 
-  .u-section-1 .u-text-1 {
-    width: auto;
-    margin-top: 174px;
-  }
-
-  .u-section-1 .u-text-2 {
-    width: auto;
-  }
-
-  .u-section-1 .u-btn-2 {
-    margin-left: 318px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 790px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-top: 200px;
-  }
-
-  .u-section-1 .u-btn-2 {
-    margin-top: 14px;
-    margin-left: 0;
+  .u-section-1 .u-group-elements-1 {
+    margin-right: initial;
+    margin-left: initial;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 672px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-top: 153px;
-  }
-
-  .u-section-1 .u-btn-2 {
-    margin-top: 20px;
+    min-height: 904px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 740px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-top: 156px;
-    margin-right: 27px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-top: 29px;
-    margin-right: 17px;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-top: 35px;
-    margin-left: auto;
-  }
-
-  .u-section-1 .u-btn-2 {
-    margin-top: 15px;
-    margin-left: auto;
-  }
-}.u-section-2 .u-sheet-1 {
-  min-height: 400px;
-}
-
-.u-section-2 .u-list-1 {
-  margin-bottom: 60px;
-}
-
-.u-section-2 .u-repeater-1 {
-  grid-auto-columns: calc(33.3333% - 6.66667px);
-  grid-template-columns: repeat(3, calc(33.3333% - 6.66667px));
-  min-height: 375px;
-  grid-gap: 10px;
-}
-
-.u-section-2 .u-container-layout-1 {
-  padding: 10px;
-}
-
-.u-section-2 .u-container-layout-2 {
-  padding: 10px;
-}
-
-.u-section-2 .u-container-layout-3 {
-  padding: 10px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-2 .u-repeater-1 {
-    grid-auto-columns: calc(33.333333333333336% - 6.66667px);
-    grid-template-columns: repeat(3, calc(33.333333333333336% - 6.66667px));
-    min-height: 308px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-2 .u-repeater-1 {
-    grid-auto-columns: calc(50% - 5.0000025px);
-    grid-template-columns: repeat(2, calc(50% - 5.0000025px));
-    min-height: 723px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-2 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
-    grid-template-columns: 100%;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-2 .u-repeater-1 {
-    grid-auto-columns: 100%;
+    min-height: 763px;
   }
 }@font-face {
   font-family: 'TTFirsNeue-Bold';
